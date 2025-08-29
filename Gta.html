@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<!-- زر الانتقال لألعاب أخرى -->
+<div style="margin-top:20px;">
+  <a href="For more games.html"
+     style="display:inline-block;background:#e74c3c;color:#fff;
+     padding:12px 25px;border-radius:8px;text-decoration:none;
+     font-weight:bold;font-size:18px;transition:0.3s;">
+     🎮 For More Games
+  </a>
+</div>
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>صفحة GTA</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: #222;
+      color: white;
+      padding: 50px;
+    }
+    h1 {
+      color: #f1c40f;
+    }
+    .btn {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 25px;
+      background: #e74c3c;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: #c0392b;
+    }
+  </style>
+</head>
+<body>
+  <h1>هذه صفحة GTA</h1>
+
+  <a href="index.html" class="btn">⬅ رجوع للصفحة الرئيسية</a>
+</body>
+</html>
+
+
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GTA San Andreas</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      direction: rtl;
+      background: #000; /* خلفية سوداء */
+      color: #fff;      /* النصوص بيضاء */
+    }
+
+    /* شريط التنقل */
+    .navbar {
+      background-color: #111;
+      overflow: hidden;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .navbar a {
+      float: right;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .navbar a:hover {
+      background-color: #575757;
+    }
+
+    .navbar a.active {
+      background-color: #04AA6D;
+    }
+
+    /* زر الموبايل */
+    .icon {
+      display: none;
+      float: left;
+      font-size: 22px;
+      padding: 14px 20px;
+      cursor: pointer;
+      color: white;
+    }
+
+    /* في الموبايل */
+    @media screen and (max-width: 600px) {
+      .navbar a {display: none;}
+      .navbar a.icon {
+        float: left;
+        display: block;
+      }
+      .navbar.responsive {position: relative;}
+      .navbar.responsive a.icon {
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+      .navbar.responsive a {
+        float: none;
+        display: block;
+        text-align: right;
+      }
+    }
+
+    /* صندوق المعلومات */
+    #info {
+      padding:20px;
+      background:#111;
+      max-width:600px;
+      margin:20px auto;
+      border-radius:10px;
+      color:#fff;
+    }
+
+    /* زر التحميل */
+    #download a {
+      display:inline-block;
+      background:#007BFF;
+      color:#fff;
+      padding:12px 25px;
+      border-radius:8px;
+      text-decoration:none;
+      font-weight:bold;
+      font-size:18px;
+      transition:0.3s;
+    }
+    #download a:hover {
+      background:#0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- شريط التنقل -->
+  <div class="navbar" id="myNavbar">
+    <a href="#download">📥 تحميل</a>
+    <a href="#info">ℹ معلومات</a>
+    <a href="#video" class="active">🎬 فيديو</a>
+    <a href="javascript:void(0);" class="icon" onclick="toggleNavbar()">☰</a>
+  </div>
+
+  <!-- فيديو -->
+  <div id="video" style="padding:20px;text-align:center">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/bS22WPNJD2A"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+  </div>
+
+  <!-- معلومات -->
+  <div id="info">
+    <h2>🎮 GTA San Andreas</h2>
+    <p><b>الاسم الكامل:</b> Grand Theft Auto: San Andreas</p>
+    <p><b>تاريخ الإصدار:</b> 26 أكتوبر 2004</p>
+    <p><b>المطور:</b> Rockstar North</p>
+    <p><b>الناشر:</b> Rockstar Games</p>
+    <p><b>النمط:</b> لعبة عالم مفتوح – أكشن/مغامرة</p>
+  </div>
+
+  <!-- تحميل -->
+  <div id="download" style="text-align:center;padding:30px;">
+    <h2>تحميل GTA San Andreas للجوال مجانا</h2>
+    <a href="https://www.directforgames.com/p/download.html?m=1">تحميل</a>
+  </div>
+
+  <script>
+    function toggleNavbar() {
+      var x = document.getElementById("myNavbar");
+      if (x.className === "navbar") {
+        x.className += " responsive";
+      } else {
+        x.className = "navbar";
+      }
+    }
+  </script>
+
+</body>
+</html>
