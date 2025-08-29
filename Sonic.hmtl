@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>تحميل Sonic</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #0d0d0d;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .container {
+      text-align: center;
+      background: #1a1a1a;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0, 200, 255, 0.4);
+      max-width: 400px;
+    }
+    .container img {
+      width: 200px;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+    h2 {
+      color: #00ccff;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 14px;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+    a.download-btn {
+      display: inline-block;
+      padding: 12px 25px;
+      background: #4CAF50;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 18px;
+    }
+    a.download-btn:hover {
+      background: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://upload.wikimedia.org/wikipedia/en/8/8f/Sonic_the_Hedgehog.png" alt="Sonic Image">
+    <h2>🎮 لعبة Sonic</h2>
+    <p>
+      🌀 استعد للسرعة القصوى مع سونيك!<br>
+      اقفز، اجمع الحلقات الذهبية، وتغلب على الأعداء بسرعة البرق.  
+      اللعبة مليئة بالتشويق والإثارة لمحبي الأكشن الكلاسيكي.
+    </p>
+    <a href="https://gamejolt.com/get/build?game=470466&build=901556" class="download-btn">⬇ تحميل Sonic</a>
+    <!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>تشغيل Bedwars</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: #111;
+      color: white;
+    }
+    a.game-link {
+      display: inline-block;
+      margin: 20px;
+      padding: 10px 20px;
+      background: #28a745;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+    a.game-link:hover {
+      background: #218838;
+    }
+    .back-btn {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 10px 20px;
+      background: #007bff;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+    .back-btn:hover {
+      background: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <h1>افتح اللعبة هنا</h1>
+  
+  <a class="game-link" href="https://bloxd.io/play/bedwars_4v4v4v4/4412" target="_blank">
+    🎮 اضغط لفتح Bedwars Squads
+  </a>
+  
+  <br>
+  
+  <!-- زر الرجوع للصفحة الرئيسية -->
+  <a href="index.html" class="back-btn">⬅ رجوع للصفحة الرئيسية</a>
+</body>
+</html>
+  </div>
+</body>
+</html>
